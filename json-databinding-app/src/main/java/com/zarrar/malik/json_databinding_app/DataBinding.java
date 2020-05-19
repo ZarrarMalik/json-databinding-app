@@ -12,10 +12,6 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 
 import zarrar.malik.jsondomain.Student;
 
-/**
- * Hello world!
- *
- */
 public class DataBinding 
 {
     public static void main( String[] args )
@@ -55,7 +51,7 @@ public class DataBinding
         
         try {
             System.out.println(objectmapper.writerWithDefaultPrettyPrinter().writeValueAsString(mapJson));
-            objectmapper.writerWithDefaultPrettyPrinter().writeValue(new File("mapJson.json"), mapJson);
+            objectmapper.writerWithDefaultPrettyPrinter().writeValue(new File("src/main/resources/mapJson.json"), mapJson);
         } catch (IOException e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
