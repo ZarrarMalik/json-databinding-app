@@ -1,0 +1,11 @@
+{
+  "id" : "34",
+  "id1" : "1234",
+  "name" : "Json",
+  "Object" : {
+    "id" : 2,
+    "name" : "Mark",
+    "lastName" : "lasting"
+  },
+  "array" : [ "1", "2", "3", "4" ]
+}

@@ -1,0 +1,26 @@
+{
+  "type" : "object",
+  "id" : "urn:jsonschema:zarrar:malik:jsondomain:LectureSchema",
+  "properties" : {
+    "name" : {
+      "type" : "string",
+      "required" : true,
+      "description" : "description of the field and required is true"
+    },
+    "nameLine2" : {
+      "type" : "string",
+      "required" : true,
+      "description" : "name of the field and requied is true"
+    },
+    "description" : {
+      "type" : "string"
+    },
+    "id" : {
+      "type" : "integer",
+      "description" : "id of the field"
+    },
+    "enabled" : {
+      "type" : "boolean"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "key" : "value1",
+  "key2" : "value2",
+  "booleanTrue" : true,
+  "booleanFalse" : false,
+  "arraystring" : [ "1", "2", "3" ],
+  "arrayObject" : [ {
+    "id" : 1,
+    "name" : null,
+    "lastName" : "testaswell"
+  }, {
+    "id" : 1,
+    "name" : null,
+    "lastName" : "2ndtest"
+  } ],
+  "simpleObject" : {
+    "id" : 1,
+    "name" : null,
+    "lastName" : "testaswell"
+  },
+  "Integer" : 1,
+  "nullValues" : null,
+  "arraylist" : [ "l", "i", "k" ],
+  "Date" : {
+    "year" : 2020,
+    "month" : "MAY",
+    "dayOfMonth" : 19,
+    "monthValue" : 5,
+    "era" : "CE",
+    "dayOfWeek" : "TUESDAY",
+    "dayOfYear" : 140,
+    "leapYear" : true,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  }
+}
